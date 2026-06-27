@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Verify Your Account</title>
+  </head>
+  <body style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <div style="max-width: 600px; margin: auto; background-color: #ffffff; padding: 30px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+      <h2 style="color: #333;">Bienvenue sur {{ appName }}! Activez votre compte 👋</h2>
+      <p style="font-size: 16px; color: #555;">Bonjour {{ name }},</p>
+      <p style="font-size: 16px; color: #555;">
+        Merci de votre inscription ! Pour activer votre compte, veuillez vérifier votre adresse e-mail en cliquant sur le bouton ci-dessous:
+      </p>
+      <div style="text-align: center; margin: 30px 0;">
+        <a href="{{ verifyLink }}" style="display: inline-block; background-color: #4CAF50; color: #fff; padding: 12px 24px; text-decoration: none; border-radius: 5px; font-size: 16px;">
+          Vérifier mon compte
+        </a>
+      </div>
+      <p style="font-size: 14px; color: #888;">
+        Si le bouton ne fonctionne pas, copiez et collez le lien ci-dessous dans votre navigateur:
+      </p>
+      <p style="font-size: 14px; word-break: break-all; color: #555;">{{ verifyLink }}</p>
+      <p style="font-size: 14px; color: #888;">⚠️ Ce lien expirera dans 2 heures.</p>
+      <p style="font-size: 14px; color: #888;">Si vous n'avez pas demandé cette inscription, vous pouvez simplement ignorer cet e-mail.</p>
+      <p style="font-size: 16px; color: #333;">– L'équipe {{ appName }}</p>
+    </div>
+  </body>
+</html>

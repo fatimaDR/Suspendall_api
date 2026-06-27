@@ -1,0 +1,42 @@
+{
+  "data": {
+    "contacts": [
+    {
+      "id": 1,
+      "titre": "Contact général",
+      "description": "Une question sur l'application, ses fonctionnalités ou l'association ?",
+      "email": "contact@suspendall.fr"
+    },
+    {
+      "id": 2,
+      "titre": "Partenariats",
+      "description": "Vous souhaitez devenir commerçant partenaire ou soutenir notre action ?",
+      "email": "partenariat@suspendall.fr"
+    },
+    {
+      "id": 3,
+      "titre": "Support technique",
+      "description": "Un bug, un souci de connexion ou une fonctionnalité qui ne répond pas ?",
+      "email": "support@suspendall.fr"
+    },
+    {
+      "id": 4,
+      "titre": "Réclamations",
+      "description": "Vous avez rencontré un problème lors d'un retrait ou souhaitez signaler un comportement ?",
+      "email": "reclamation@suspendall.fr"
+    },
+    {
+      "id": 5,
+      "titre": "Comptabilité",
+      "description": "Besoin d'un reçu fiscal ou d'un justificatif de transaction ?",
+      "email": "comptabilite@suspendall.fr"
+    },
+    {
+      "id": 6,
+      "titre": "Service commercial",
+      "description": "Vous souhaitez discuter visibilité, distribution ou opérations spéciales ?",
+      "email": "commercial@suspendall.fr"
+    }
+  ]
+  }
+}

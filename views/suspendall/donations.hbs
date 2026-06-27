@@ -1,0 +1,152 @@
+<!-- views/suspendall/donations.hbs -->
+<html>
+    <head>
+        <style>
+            html { -webkit-print-color-adjust: exact; }
+            .container {
+                margin-top: 3rem;
+            }
+            .wrapper {
+                display: flex;
+                justify-content: space-between;
+            }
+            p {
+                font-size: 18px;
+            }
+            .right-side {
+                margin-top: 80px;
+                margin-bottom: 4rem;
+                padding-bottom: 4px;
+            }
+            .right-side p {
+                flex: 0 0 20%; /* Adjust the width as needed */
+                max-width: 400px;
+                margin-right: 7rem;
+                display: flex;
+            }
+            .center {
+                background: #BFC0C3;
+                padding-inline: 3rem;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                border: 1px solid black; 
+                margin-top: 3rem;
+                max-width: 500px;
+                margin: auto;
+            }
+            .center h1 {
+                font-size: 30px;
+                text-align: center; /* Center only the h1 element */
+                text-transform: uppercase; /* Make text uppercase */
+            }
+            .recu {
+                /* border: 1px solid black;  */
+                margin: auto;
+                width: 50%;
+                padding: 10px;
+                text-align: center;
+            }
+            .suspendall {
+                margin-left: 5rem;
+                width: 100%;
+            }
+            .suspendall h3{
+                margin: 2rem;
+            }
+            .inline {
+                display: flex;
+                gap: 1rem;
+                align-items: baseline;
+            }
+            .address {
+                margin-left: 4rem;
+                line-height: 5px;
+            }
+            .address.p {
+                padding: 0;
+            }
+            .ass_rules {
+                max-width: 500px;
+                margin: auto;
+                padding-inline: 1.5rem;
+                border-top: 1px solid black;
+                border-bottom: 1px solid black;
+                margin-top: 3rem;
+                text-align: center;
+            }
+            .ass_rules p {
+                font-weight: 600;
+            }
+            .name {
+                margin-top: 3rem;
+                margin-left: 5rem;
+            }
+            .city{
+                margin-top: 3rem;
+                margin-left: 5rem;
+            }
+            .president {
+                margin: auto;
+                width: 50%;
+                padding: 10px;
+                text-align: center;
+            }
+            .certificate {
+                max-width: 700px;
+                margin-top: 60px;
+                border-top: 1px solid black;
+                margin: auto;
+                padding-inline: 1.5rem;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+               
+            <div class="wrapper">
+                <div>
+                   <figure>
+                        <img style="width:60px;" class="logo" src="{{pdf.url}}/images/logo.png" alt="logo">
+                    </figure> 
+                </div>
+                
+                <div class="right-side"> 
+                    <p>{{pdf.full_name}} <br/>{{ pdf.adress1}} {{ pdf.adress2}}</p>
+                </div>
+            </div>
+            <div class="center" >
+                <h1>{{ pdf.title}}</h1>
+            </div>
+            <div class="recu">
+                <h1>{{ pdf.receive}}</h1>
+            </div>
+            <div class="suspendall">
+                <p>{{ pdf.association}}</p>
+                <div class="inline">
+                    <h3>{{ pdf.suspendall}}</h3>
+                    <div class="address">
+                        <p>{{ pdf.susp_adress}}</p>
+                        <p>{{ pdf.susp_adress2}}</p>
+                    </div> 
+                </div> 
+            </div>
+            <div class="ass_rules">
+                <p>{{ pdf.association_rules}}</p>
+            </div>
+            <div class="name" >
+                <p>{{ pdf.name}}<b>{{pdf.full_name}}</b></p>
+               <p style="margin-right: 30px;">{{ pdf.total}}</p> 
+            </div>
+            <div class="city">
+                <p><b>{{ pdf.city}}</b></p>
+            </div> 
+            <div class="president">
+                <p>{{pdf.president}}</p>
+            </div>
+            <div class="certificate">
+               <p>{{pdf.certificate}}</p> 
+            </div>
+        </div>
+    </body>
+</html>

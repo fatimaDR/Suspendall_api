@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Merci pour votre don</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f6f6f6;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      background-color: #ffffff;
+      max-width: 600px;
+      margin: 30px auto;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    .header {
+      text-align: center;
+      padding-bottom: 20px;
+    }
+    .header img {
+      width: 120px;
+    }
+    h2 {
+      color: #333333;
+    }
+    p {
+      color: #555555;
+      line-height: 1.6;
+    }
+    .attachment {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #f0f0f0;
+      border-left: 4px solid #4CAF50;
+      font-style: italic;
+    }
+    .footer {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #888888;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Bonjour {{firstName}},</h2>
+
+    <p>Nous vous remercions sincèrement pour votre généreux don à <strong>{{ appName }}</strong>. Votre soutien est précieux et contribue directement à venir en aide aux personnes en situation de précarité.</p>
+
+    <p>Veuillez trouver ci-joint votre reçu fiscal, que vous pouvez utiliser dans le cadre de votre déclaration d'impôts.</p>
+
+    <div class="attachment">
+      📎 Pièce jointe : 
+      <a href="{{pdfUrl}}" target="_blank" rel="noopener noreferrer">
+        Reçu_fiscal_{{lastName}}_{{firstName}}_2025.pdf
+      </a>
+    </div>
+
+    <p>Grâce à votre engagement, nous pouvons continuer à faire avancer notre mission et avoir un impact réel.</p>
+
+    <p>Encore merci pour votre soutien !</p>
+
+    <p>Bien cordialement,<br>
+    <strong>Équipe Suspendall</strong></p>
+
+    {{!-- <div class="footer">
+      Suspendall • l'Agora, 254 Bd du Maréchal Juin, 78200 Mantes-la-Jolie
+    </div> --}}
+  </div>
+</body>
+</html>

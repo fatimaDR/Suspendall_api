@@ -1,0 +1,46 @@
+{
+  "data": {
+    "questions": [
+      {
+        "id": 1,
+        "question": "Quel est le concept de l'application Suspendall ?",
+        "answer": "Suspendall est une application solidaire qui permet à chacun d'offrir un produit (repas, boisson, article…) chez un commerçant partenaire, en le « suspendant ». Tous les commerçants partenaires sont référencés et visibles directement sur l'application, avec leurs produits suspendables. Une fois le produit offert, il devient réservable par un étudiant dans le besoin. Celui-ci peut le réserver (une commande à la fois) et aller le récupérer chez le commerçant, muni de sa carte étudiante."
+      },
+      {
+        "id": 2,
+        "question": "Comment créer un compte, modifier mes informations personnelles ou supprimer mon profil ?",
+        "answer": "Créer un compte : Pour vous inscrire, il vous suffit de fournir une adresse e-mail valide. Un e-mail de confirmation vous sera automatiquement envoyé — pensez à vérifier vos spams si vous ne le voyez pas dans votre boîte de réception. Pour les étudiants souhaitant créer un compte bénéficiaire, il est obligatoire de renseigner un numéro de carte étudiante valide. Ce numéro sera ensuite vérifié sur place par le commerçant lors du retrait du produit réservé. Modifier vos informations personnelles : Vous pouvez à tout moment mettre à jour vos informations (nom, adresse e-mail, mot de passe…) depuis la section Profil > Mes informations personnelles de l'application. Supprimer votre profil : La suppression de votre compte se fait également dans la section Mes informations personnelles. Une fois votre profil supprimé, vos données seront effacées conformément à notre politique de confidentialité."
+      },
+      {
+        "id": 3,
+        "question": "Suspendall se rémunère-t-elle sur les transactions ?",
+        "answer": "Non. Suspendall est une association loi 1901 à but non lucratif, ce qui signifie qu'aucune commission n'est prélevée sur les produits suspendus ou récupérés via l'application. L'association vit grâce aux dons libres, proposés juste avant la finalisation d'un paiement. Une section dédiée et clairement identifiable est prévue à cet effet dans l'application, pour permettre à chacun de soutenir du montant qu'il le souhaite."
+      },
+      {
+        "id": 4,
+        "question": "Comment faire un don à Suspendall, et est-il déductible d'impôts ?",
+        "answer": "Les dons faits à Suspendall sont déductibles d'impôts à hauteur de 66 %, car l'association est reconnue d'utilité publique.\n\nIl existe 3 manières simples de soutenir notre action :\n- Depuis l'application : Juste avant le paiement, une section dédiée vous propose de faire un don libre. En cochant l'option prévue, vous recevrez automatiquement un reçu fiscal.\n- Via notre page HelloAsso : https://www.helloasso.com/associations/le-burger-suspendu/formulaires/2\n- Directement via l'espace Contact de l'application.\n\n💡 Exemple : un don de 30€ ouvre droit à une réduction d'impôt de 19,80€, ce qui revient à un coût réel de 10,20€."
+      },
+      {
+        "id": 5,
+        "question": "À quoi correspondent les frais bancaires lors d'un paiement ?",
+        "answer": "Lorsque vous effectuez un paiement par carte bancaire ou via PayPal, une petite commission est automatiquement prélevée par la plateforme de paiement. Ces frais sont imposés par les partenaires (Stripe et PayPal) et ne sont pas fixés par Suspendall. Ils apparaissent clairement dans le récapitulatif avant validation du paiement."
+      },
+      {
+        "id": 6,
+        "question": "Que faire en cas de bug ou de problème technique avec l'application ?",
+        "answer": "Si l'application plante ou si vous rencontrez un comportement inhabituel, signalez-le via l'espace 'Contact' de l'application. Chaque signalement est traité dans les plus brefs délais."
+      },
+      {
+        "id": 7,
+        "question": "Comment modifier le mot de passe qui m'a été envoyé par e-mail ?",
+        "answer": "Rendez-vous dans l'application, rubrique Profil > Mes informations personnelles > Mot de passe, pour définir un mot de passe personnel."
+      },
+      {
+        "id": 8,
+        "question": "Ma position ne m'a pas été demandée : comment activer la géolocalisation ?",
+        "answer": "Sur iOS : Réglages > Confidentialité et sécurité > Services de localisation > Suspendall.\nSur Android : Paramètres > Localisation > Autorisations des applications > Suspendall.\nRedémarrez ensuite l'application pour détecter votre position."
+      }
+    ]
+  }
+}
